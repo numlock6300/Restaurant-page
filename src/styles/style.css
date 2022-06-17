@@ -107,7 +107,7 @@ header {
      font-family: Noto-Serif-Italic;
  }
 
- .content {
+ /* .content {
     display: grid;
     background-color: var(--content);
     color: whitesmoke;
@@ -142,7 +142,7 @@ header {
     flex: 1;
     font-size: clamp(1rem, 1vw, 2vw);
     border-bottom: 1px solid var(--golden);
-}
+} */
 
 footer {
     display: grid;
