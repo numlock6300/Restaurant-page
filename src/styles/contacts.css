@@ -1,0 +1,30 @@
+.content {
+    display: grid;
+    justify-items: center;
+}
+
+.address > h1,
+.hours > h1,
+.contacts > h1{
+    text-align: center;
+}
+
+.hours-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.hours-container > div > p {
+    text-align: center;
+}
+
+.contacts > p {
+    text-align: center;
+}
+
+h1{
+    text-decoration: underline solid var(--golden);
+    color: var(--golden)
+}

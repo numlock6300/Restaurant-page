@@ -1,0 +1,30 @@
+.content {
+    display: grid;
+
+}
+
+.menu-block {
+    display: grid;
+    grid-template-rows: auto, 1fr;
+}
+
+.menu-head > h2 {
+    text-align: center;
+    text-decoration: underline solid var(--golden);
+    color:var(--golden);
+    font-family: Noto-Serif-Italic;
+}
+
+.dishes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.dish {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    grid-template-rows: auto auto auto;
+    padding: 1rem;
+}
